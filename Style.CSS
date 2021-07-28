@@ -1,0 +1,2963 @@
+body {
+  height: auto;
+  width: auto;
+  /*background-image: linear-gradient(
+    15deg,
+    rgb(19, 84, 122) 0%,
+    rgba(9, 221, 196, 0)
+  );
+  background-image: linear-gradient(to top, rgba(15, 184, 114, 0.63) 0%, rgba(231, 228, 15, 0.623) 100%);*/
+  background-attachment: fixed;
+  margin: 0% 0% 0% 0%;
+  padding: 0% 0% 0% 0%;
+}
+
+html {
+  width: 100%;
+  margin: 0% 0% 9% 0%;
+  background: rgba(132, 139, 138, 0);
+}
+
+/*MENU*/
+H1 {
+  text-align: center;
+  font-size: 400%;
+  /* color: rgb(105, 172, 111);*/
+  color: rgb(255, 255, 255);
+  margin: 0% 0% 0% -9%;
+}
+
+H1 a {
+  text-decoration: none;
+}
+
+.menu ul {
+  list-style: none;
+  display: inline-flex;
+  padding: 0px;
+}
+
+.menu ul li {
+  color: rgb(0, 0, 0);
+}
+
+.menu ul li a {
+  text-decoration: none;
+  display: block;
+  font-size: 100%;
+  color: rgb(255, 255, 255);
+}
+
+.menu ul li a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.menu ul li a:hover {
+  height: 7.7vh;
+  width: 120%;
+  /*background: rgba(105, 172, 111, 0.747);*/
+  background: rgba(255, 255, 255, 0.329);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu ul li:hover {
+  display: table-column;
+}
+
+.menu li {
+  display: inline-block;
+  margin: auto 4%;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0%;
+  padding: 0%;
+}
+.menu {
+  width: 100%;
+  height: 8vh;
+}
+
+#logo {
+  width: 7%;
+}
+
+Header {
+  padding: 0%;
+  margin: 0% 0% 0% -5%;
+  height: 14vh;
+  display: block;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: sticky;
+  top: 0%;
+  background: rgb(64, 136, 115);
+  /*  background-image: linear-gradient(to top, rgb(10, 124, 77) 0%, rgb(221, 218, 57) 100%);*/
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: rgb(77, 110, 119);
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
+.cuadro {
+  margin: 0% 0% -7% 10%;
+  width: 80%;
+}
+
+.cuadro-1 {
+  margin: 0% 0% -15% 10%;
+  width: 80%;
+}
+
+/* FOTOS 1-2-3-4-5-6-7-8*/
+
+#Foto-1 {
+  height: 25vh;
+  width: 25%;
+}
+
+#Foto-2 {
+  height: 25vh;
+  width: 23%;
+}
+
+#Foto-3 {
+  height: 45vh;
+  width: 20%;
+}
+
+.fotos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#foto-6 {
+  width: 25%;
+  height: 50vh;
+  margin: 0% 9%;
+  margin: 2% 9% 2% 15%;
+  box-shadow: 4px 4px 5px 4px #999;
+}
+
+/*CONTENIDO*/
+
+.imagen {
+  height: 20vh;
+  width: 100%;
+  font-size: 180%;
+  color: rgb(255, 255, 255);
+}
+
+#fondo {
+  margin-top: 5%;
+  height: 70vh;
+  width: 30%;
+}
+
+.parrafo {
+  width: 90%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.parrafo p {
+  margin: 12% 0% 6% 12%;
+  color: rgba(0, 0, 0, 0.897);
+  opacity: 1000000000000%;
+  display: inline-flex;
+  align-content: center;
+  font-size: 110%;
+}
+
+.imagenes {
+  margin: 6% 0% 0% 0%;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+#uno-1 {
+  height: 40vh;
+  width: 70%;
+}
+
+#uno-2 {
+  width: 110%;
+  height: 40vh;
+}
+
+#uno-3 {
+  width: 80%;
+  height: 40vh;
+}
+
+.uno {
+  margin: 0% 0% 0% 0%;
+  text-align: center;
+}
+.dos {
+  margin: 0% 6% 0% 4%;
+  text-align: center;
+}
+
+.tres {
+  margin: 0% 0% 0% 0%;
+  text-align: center;
+}
+
+.uno h6 {
+  color: black;
+  opacity: 100000%;
+  font-size: 250%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 8% 0% 0% 0%;
+}
+
+.dos h5 {
+  color: black;
+  opacity: 100000%;
+  font-size: 250%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 17% 0% 0% 0%;
+}
+
+.tres h4 {
+  color: black;
+  opacity: 100000%;
+  font-size: 250%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 8% 0% 0% 0%;
+}
+
+h2 {
+  text-align: center;
+}
+
+hr {
+  margin-top: 8%;
+}
+
+/* LOOP*/
+
+.Presentacion {
+  background-image: url(Img/Foto-5.jpg);
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+  margin: -8% 0% 0% 0%;
+  width: 100%;
+  height: 86vh;
+  opacity: 90%;
+}
+
+.Presentacion h2 {
+  color: rgb(61, 40, 40);
+  font-size: 480%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 15% 0% 0% 0%;
+}
+
+.ki {
+  margin: 27% 0% 0% 0%;
+}
+
+.loop {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  text-align: center;
+  /* background: rgba(169, 172, 8, 0.233);*/
+  background: rgba(172, 175, 19, 0.363);
+  margin: 9% 0% -22% 0%;
+  opacity: 1000000%;
+  color: rgba(0, 0, 0, 0.877);
+}
+
+.def {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 12%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 105%;
+  display: flex;
+  align-items: center;
+}
+
+.cuadro {
+  margin: 0% 0% -12.5% 10%;
+}
+
+.cuadro-1 {
+  margin: -6.7% 0% 0% 10%;
+}
+
+.lado hr {
+  height: 35vh;
+  margin: 90% 0% 0% -9%;
+}
+
+.lado-1 hr {
+  height: 32vh;
+  margin: 70% 0% 0% 9%;
+}
+
+#eca-1 {
+  width: 18%;
+  height: 8vh;
+}
+
+#eca-2 {
+  width: 18%;
+  height: 8vh;
+}
+
+#eca-3 {
+  width: 18%;
+  height: 8vh;
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 120%;
+}
+
+.clase-1 {
+  width: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.clase-2 {
+  width: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.clase-3 {
+  width: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*PRODUCTOS*/
+
+.caretas {
+  margin: 19% 0% 0% 0%;
+}
+
+.code {
+  width: 15%;
+  height: 1vh;
+  background: rgba(145, 143, 21, 0.438);
+  margin: 0% 0% 0% 7.5%;
+}
+
+.codigo {
+  width: 15%;
+  height: 1vh;
+  background: rgba(145, 143, 21, 0.438);
+  margin: -0.6% 0% 0% 7.5%;
+}
+
+.margen {
+  width: 15%;
+  height: 1vh;
+  background: rgba(145, 143, 21, 0.438);
+  margin: -0.7% 0% 0% 8%;
+}
+
+h5 {
+  margin: 1% 0% 3% 9%;
+  font-size: 160%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.lorem {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.151);
+  margin-top: -10%;
+}
+
+.tutulo {
+  width: 50%;
+}
+.tutulo h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 180%;
+}
+
+.tutulo h3 {
+  font-size: 140%;
+  color: rgba(231, 12, 12, 0.849);
+}
+
+.contenido {
+  margin-top: 29%;
+}
+
+.contenido h6 {
+  font-size: 340%;
+  opacity: 10000%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 7% 0% 0% 0%;
+  color: rgba(4, 170, 73, 0.808);
+  opacity: 50%;
+  text-align: center;
+}
+
+.lista1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+}
+
+.contenido .caretas h5 {
+  font-size: 160%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 3% 0% 3% 8%;
+}
+
+.contenido .caretas hr {
+  margin: 3% 0% 3% 0%;
+}
+
+.lista1 ul li {
+  width: 30%;
+  height: 5vh;
+  margin: 0% -5% 1% 6%;
+}
+
+/*Geles*/
+
+.geles h4 {
+  text-align: center;
+  font-size: 340%;
+  opacity: 10000%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 7% 0% 7% 0%;
+  color: rgba(87, 82, 82, 0.562);
+  opacity: 50%;
+}
+
+.geles h5 {
+  font-size: 200%;
+  text-align: center;
+}
+
+#gel {
+  width: 40%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 4px 4px 5px 4px #999;
+}
+
+.geles {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 19% 0% 0% 0%;
+  background: rgba(11, 138, 0, 0);
+}
+
+.pas {
+  background: rgba(11, 138, 0, 0);
+  margin: 0% 0% 0% 0%;
+}
+
+.lista2 {
+  display: flex;
+  margin: 0% 0% 0% 43%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista2 ul li {
+  margin: 0% 0% 5% 0%;
+}
+
+.lista2 ul {
+  margin: 0% 3% 0% 3%;
+}
+
+.lista2 h3 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cont {
+  width: 45%;
+}
+
+.cont h5 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cont h2 {
+  font-size: 140%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 0, 0);
+  display: flex;
+}
+.afuera h4 {
+  text-align: center;
+  font-size: 440%;
+  opacity: 10000%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 17% 0% 0% 0%;
+  color: rgba(0, 0, 0, 0.808);
+  opacity: 50000%;
+}
+
+.todo {
+  display: flex;
+  margin: 4% 0% 0% 4%;
+}
+
+.lista3 {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffffff;
+}
+
+.lista3 h4 {
+  margin: -3% 0% 6% 11%;
+  font-size: 160%;
+}
+
+.lista3 ul li {
+  width: 100%;
+  height: 5vh;
+  margin: 0% 0% 3% 6%;
+}
+
+.lahr {
+  margin: -5% 0% 0% 0%;
+}
+
+.cubrebocas h5 {
+  font-size: 350%;
+  text-align: center;
+  color: rgba(4, 170, 73, 0.808);
+  opacity: 50%;
+}
+
+.clase h2 {
+  display: flex;
+  font-size: 110%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 0, 0);
+  text-align: center;
+}
+
+.clase2 h4 {
+  font-size: 130%;
+  margin: 12% 0% 0% 9%;
+}
+
+.clase h4 {
+  font-size: 160%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 0, 0);
+}
+.clase2 {
+  font-size: 120%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 0, 0);
+  text-align: center;
+}
+
+.clase .one h2 {
+  font-size: 130%;
+  margin: 0% 0% 5% 30%;
+  text-align: center;
+}
+
+.two {
+  margin: 0% 0% 2% 42%;
+  font-size: 170%;
+}
+
+.clase3 {
+  text-align: center;
+}
+
+.topnin h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.clase2 h2 {
+  display: flex;
+  font-size: 70%;
+}
+.clase3 h4 {
+  font-size: 140%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 0, 0);
+  text-align: center;
+  margin: 9% 0% 7% -28%;
+}
+
+.clase3 h2 {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 0, 0);
+  font-size: 140%;
+}
+
+.foro {
+  display: flex;
+  margin: 0% 0% 0% 0%;
+  width: 270%;
+  background: rgba(13, 193, 206, 0);
+  border-radius: 2%;
+}
+
+.clis {
+  display: flex;
+  margin: -7% 0% 0% 0%;
+}
+
+.clasma h3 {
+  font-size: 180%;
+  color: rgb(255, 0, 0);
+}
+
+.nimiclas h3 {
+  font-size: 180%;
+  color: rgb(255, 0, 0);
+}
+
+.nimiclas {
+  margin: 0% 0% 0% 14%;
+  font-size: 85%;
+  color: rgb(255, 0, 0);
+}
+.clasma {
+  font-size: 85%;
+  color: rgb(255, 0, 0);
+}
+
+.clasma h4 {
+  font-size: 90%;
+}
+
+.yoi hr {
+  margin: 3% 0% 0% 0%;
+}
+
+.descrip h3 {
+  font-size: 160%;
+  margin: 3% 0% 3% 8%;
+  color: rgb(0, 0, 0);
+}
+
+.lasd li {
+  width: 80%;
+  height: 5vh;
+  margin: 0% 0% 1% 6%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Cubrebocas*/
+
+#top {
+  width: 40%;
+  box-shadow: 4px 4px 5px 4px #999;
+}
+
+.topnin {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 15%;
+}
+
+.topnin h2 {
+  font-size: 230%;
+  width: 50%;
+}
+
+.for {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5% 0% 0% 4%;
+}
+/*FOOTER*/
+
+footer {
+  background: rgba(56, 56, 56, 0.082);
+  margin: 19% 0% -1.5% 0%;
+  height: 31vh;
+  color: rgba(0, 0, 0, 0.514);
+}
+
+footer .parr {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 30%;
+}
+
+footer .tel {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer h6 {
+  font-size: 100%;
+  margin: 0% 0% 0% 0%;
+}
+
+.fout {
+  display: flex;
+  justify-content: space-around;
+  margin: 0% 0% -7% 0%;
+}
+
+.pie {
+  text-align: center;
+}
+
+/*(@media screen) jgroegeoigjeotijotig8rot9hi8tohitohthortjhij083u9t83uoiewr
+uheiruferhgehreghruehruehorgehroguehrgleirhgoergheorgiehrgoiehgoerighergiehroge*/
+
+@media screen and (max-width: 1250px) {
+  footer {
+    height: 27vh;
+  }
+
+  .cont h2 {
+    font-size: 120%;
+    margin-top: 7%;
+  }
+
+  header {
+    height: 13vh;
+  }
+
+  .Presentacion {
+    width: 100%;
+    height: 50vh;
+  }
+}
+
+
+@media screen and (max-width: 1224px) {
+  .cont h5 {
+    margin: 0% 0% 0% -7%;
+  }
+
+  footer {
+    height: 29vh;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .codigo {
+    margin-top: -0.8%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .margen {
+    margin-top: -0.8%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  h1 {
+    font-size: 350%;
+  }
+
+  .menu ul li a:hover {
+    height: 6vh;
+  }
+  .clase-2 {
+    font-size: 100%;
+  }
+
+  .geles h5 {
+    font-size: 180%;
+  }
+
+  .topnin h2 {
+    font-size: 200%;
+    width: 50%;
+  }
+
+  .for {
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .cont h2 {
+    font-size: 110%;
+  }
+
+  .lista2 {
+    margin: 0% 0% 0% 40%;
+  }
+}
+
+@media screen and (max-width: 986px) {
+  .Presentacion {
+    height: 70vh;
+  }
+
+  #eca-1 {
+    width: 20%;
+    height: 7vh;
+  }
+
+  #eca-2 {
+    width: 20%;
+    height: 7vh;
+  }
+
+  #eca-3 {
+    width: 20%;
+    height: 7vh;
+  }
+
+  .menu ul li a:hover {
+    height: 7vh;
+  }
+
+  #logo {
+    margin: 0% 0% 0% -3%;
+  }
+  .cont h5 {
+    font-size: 170%;
+  }
+
+  footer {
+    height: 20vh;
+  }
+}
+
+@media screen and (max-width: 968px) {
+  h1 {
+    font-size: 330%;
+  }
+
+  .lista2 {
+    margin: 0% 0% 0% 38%;
+  }
+
+  footer {
+    height: 33vh;
+  }
+}
+
+@media screen and (max-width: 958px) {
+  .cont h5 {
+    font-size: 160%;
+  }
+
+  .pas {
+    font-size: 90%;
+  }
+
+  .cont h2 {
+    font-size: 110%;
+  }
+
+  .for {
+    width: 90%;
+    font-size: 90%;
+    margin: 3% 0% 0% 8%;
+  }
+
+  #foto-6 {
+    width: 24%;
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width: 948px) {
+  .lista2 {
+    margin: 2% 0% 0% 40%;
+  }
+
+  h1 {
+    font-size: 315%;
+  }
+
+  .cont h2 {
+    font-size: 105%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  h1 {
+    font-size: 280%;
+  }
+
+  footer {
+    height: 34vh;
+  }
+}
+
+@media screen and (max-width: 908px) {
+  .codigo {
+    margin-top: -1%;
+  }
+
+  .margen {
+    margin-top: -1%;
+  }
+
+  .cont h2 {
+    font-size: 100%;
+  }
+
+  .cont h5 {
+    font-size: 160%;
+  }
+  .tutulo {
+    font-size: 90%;
+  }
+
+  .topnin h2 {
+    font-size: 180%;
+  }
+
+  .for {
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .for {
+    font-size: 80%;
+  }
+
+  header {
+    height: 11.5vh;
+  }
+  .clase-2 {
+    width: 25%;
+  }
+
+  .lista2 {
+    margin: 2% 0% 0% 36%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .cont h2 {
+    font-size: 99%;
+    margin: 5% 0% 0% -8%;
+  }
+
+  .lista2 {
+    margin: 2% 0% 0% 34%;
+  }
+
+  .cont .lo {
+    margin-top: 9%;
+  }
+
+  .for {
+    margin: 0% 0% 0% 7%;
+  }
+}
+
+@media screen and (max-width: 856px) {
+  h1 {
+    font-size: 280%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .clase-1 {
+    width: 23%;
+  }
+
+  .clase-2 {
+    width: 27%;
+  }
+
+  .clase-3 {
+    width: 23%;
+  }
+
+  .cont h2 {
+    font-size: 98%;
+    margin: 6% 0% 0% -9%;
+  }
+}
+
+@media screen and (max-width: 843px) {
+  .cont h2 {
+    font-size: 97%;
+  }
+}
+
+@media screen and (max-width: 833px) {
+  .cont h2 {
+    font-size: 130%;
+    margin: 6% 0% 0% -15%;
+  }
+
+  .cont .lo {
+    margin: 48% 0% -20% -50%;
+  }
+
+  .lista2 {
+    margin: 15% 0% 0% 13%;
+  }
+
+  .cont h5 {
+    margin: 0% 0% 0% 0%;
+  }
+
+  #gel {
+    margin: -25% 0% 0% 0%;
+  }
+  .geles {
+    margin-top: 30%;
+  }
+
+  .menu ul li a:hover {
+    height: 5vh;
+  }
+
+  footer {
+    height: 22vh;
+  }
+
+  .code {
+    width: 20%;
+  }
+
+  .codigo {
+    width: 20%;
+  }
+
+  .margen {
+    width: 20%;
+  }
+
+  #foto-6 {
+    height: 30vh;
+  }
+
+  h1 {
+    font-size: 270%;
+  }
+
+  .Presentacion {
+    height: 60vh;
+  }
+
+  header {
+    height: 8vh;
+  }
+}
+
+@media screen and (max-width: 828px) {
+  h1 {
+    font-size: 260%;
+  }
+
+  .menu ul li {
+    font-size: 95%;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .for {
+    margin-top: 3%;
+  }
+}
+
+@media screen and (max-width: 807px) {
+  #eca-1 {
+    height: 6vh;
+  }
+
+  #eca-1 {
+    height: 6vh;
+  }
+
+  #eca-1 {
+    height: 6vh;
+  }
+
+  .clase-1 {
+    width: 20%;
+  }
+
+  .clase-2 {
+    width: 23%;
+  }
+
+  .clase-3 {
+    width: 22%;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  header {
+    height: 8vh;
+  }
+
+  .clase-1 {
+    width: 23%;
+  }
+
+  .clase-2 {
+    width: 25%;
+  }
+
+  .clase-3 {
+    width: 23%;
+  }
+
+  .menu ul li a:hover {
+    height: 4.5vh;
+  }
+
+  #foto-6 {
+    height: 25vh;
+  }
+}
+
+@media screen and (max-width: 796px) {
+  h1 {
+    font-size: 230%;
+  }
+
+  #eca-1 {
+    height: 6vh;
+  }
+
+  #eca-1 {
+    height: 6vh;
+  }
+
+  #eca-1 {
+    height: 6vh;
+  }
+
+  .codigo {
+    margin-top: -1%;
+  }
+
+  .cont h5 {
+    font-size: 180%;
+    width: 100%;
+    margin: 0;
+  }
+
+  .margen {
+    margin-top: -1.2%;
+  }
+}
+
+@media screen and (max-width: 779px) {
+  .for {
+    font-size: 75%;
+  }
+
+  .lista3 ul li {
+    margin: 0% 0% 1% 0%;
+  }
+
+  .lista3 h4 {
+    margin: -3% 0% 6% 7%;
+  }
+}
+
+@media screen and (max-width: 773px) {
+  .cont .lo {
+    margin: 45% 0% -20% -50%;
+  }
+}
+
+@media screen and (max-width: 768px) /*IPad*/ {
+  H1 {
+    font-size: 240%;
+  }
+
+  .menu ul li {
+    color: rgb(95, 93, 93);
+  }
+
+  .menu ul li a {
+    color: rgb(255, 255, 255);
+  }
+
+  #logo {
+    width: 8%;
+  }
+
+  .menu {
+    font-size: 90%;
+  }
+
+  header {
+    height: 8vh;
+  }
+
+  .Presentacion {
+    height: 60vh;
+  }
+
+  .loop {
+    font-size: 90%;
+  }
+
+  #eca-1 {
+    width: 30%;
+    height: 6vh;
+  }
+
+  #eca-2 {
+    width: 30%;
+    height: 6vh;
+  }
+
+  #eca-3 {
+    width: 30%;
+    height: 6vh;
+  }
+
+  .lista1 ul li {
+    width: 40%;
+  }
+
+  .cont h5 {
+    font-size: 170%;
+    width: 120%;
+    margin: 0% 0% 0% -12%;
+  }
+
+  .cont h2 {
+    font-size: 130%;
+    margin: 4% 0% 0% -22%;
+    width: 120%;
+  }
+
+  .cont .lo {
+    margin: 40% 0% 10% -50%;
+  }
+
+  #gel {
+    margin: -32% 0% 0% 0%;
+  }
+
+  .codigo {
+    width: 20%;
+    margin-top: -1.3%;
+  }
+
+  .margen {
+    width: 20%;
+    margin-top: -1.3%;
+  }
+
+  .code {
+    width: 20%;
+  }
+
+  .clase2 h4 {
+    font-size: 120%;
+  }
+
+  .lista2 {
+    margin: 0% 0% 0% 8%;
+  }
+
+  .clase .one {
+    font-size: 100%;
+  }
+
+  .for {
+    margin: 3% 0% 5% 9%;
+    font-size: 76%;
+  }
+
+  .nimiclas h2 {
+    font-size: 150%;
+  }
+
+  .clasma h2 {
+    font-size: 150%;
+  }
+  .two {
+    margin: 0% 0% 0% 39%;
+  }
+
+  footer {
+    height: 23vh;
+  }
+}
+
+@media screen and (max-width: 728px) {
+  header {
+    height: 8vh;
+  }
+
+  h1 {
+    font-size: 220%;
+  }
+
+  .Presentacion {
+    height: 55vh;
+  }
+
+  .loop {
+    font-size: 87%;
+  }
+
+  .clase-1 {
+    width: 25%;
+  }
+
+  .clase-2 {
+    width: 25%;
+  }
+
+  .clase-3 {
+    width: 25%;
+  }
+
+  .for {
+    font-size: 70%;
+    margin: 3% 0% 5% 7%;
+  }
+
+  .lasd li {
+    font-size: 96%;
+  }
+}
+
+@media screen and (max-width: 728px) {
+  .cont h5 {
+    width: 115%;
+  }
+
+  #foto-6 {
+    height: 23vh;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 200%;
+  }
+
+  .menu {
+    font-size: 88%;
+  }
+
+  .cont h5 {
+    font-size: 135%;
+  }
+
+  .cont h2 {
+    font-size: 110%;
+  }
+
+  footer {
+    height: 24vh;
+  }
+
+  .Presentacion {
+    height: 50vh;
+  }
+
+  .menu ul li a:hover {
+    height: 4vh;
+  }
+
+  .clase-1 {
+    width: 26%;
+  }
+
+  .clase-2 {
+    width: 28%;
+  }
+
+  .clase-3 {
+    width: 26%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .tutulo h2 {
+    font-size: 150%;
+  }
+
+  .tutulo h3 {
+    font-size: 120%;
+  }
+
+  .lista1 ul li {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .loop {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .lorem {
+    margin: auto auto auto -10%;
+  }
+
+  .cont h5 {
+    font-size: 155%;
+  }
+
+  #foto-6 {
+    width: 30%;
+  }
+
+  .tutulo h2 {
+    font-size: 170%;
+  }
+
+  .cont h2 {
+    font-size: 120%;
+    margin: 4% 0% 0% -25%;
+  }
+
+  .tutulo h3 {
+    font-size: 130%;
+  }
+
+  .clase-1 {
+    margin: auto;
+    width: 40%;
+    margin-top: 5%;
+  }
+
+  .clase-3 {
+    margin: auto;
+    width: 40%;
+    margin-top: 5%;
+  }
+
+  .clase-2 {
+    margin: auto;
+    width: 40%;
+    margin-top: 5%;
+  }
+
+  #eca-1 {
+    width: 20%;
+  }
+
+  #eca-2 {
+    width: 20%;
+  }
+
+  #eca-3 {
+    width: 20%;
+  }
+
+  .clase {
+    text-align: center;
+  }
+
+  .one {
+    margin-top: -6%;
+  }
+
+  footer {
+    height: 26vh;
+  }
+}
+
+@media screen and (max-width: 654px) {
+  .clase2 {
+    margin: 0.5% 0% 0% 0%;
+  }
+
+  .Presentacion {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 0px) {
+}
+
+@media screen and (max-width: 640px) {
+  h1 {
+    font-size: 190%;
+  }
+
+  .menu {
+    font-size: 90%;
+  }
+
+  .tutulo h2 {
+    font-size: 170%;
+    margin: 0% 0% 0% -17%;
+  }
+
+  .tutulo h3 {
+    font-size: 140%;
+  }
+
+  .tutulo .asd {
+    margin: 0% 0% 0% -6%;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  h1 {
+    font-size: 170%;
+    margin: 4% 0% -2% 2%;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    margin: auto;
+  }
+
+  .menu ul li a {
+    font-size: 115%;
+  }
+
+  #logo {
+    width: 8%;
+    margin: 2% 0% -11% -42%;
+  }
+
+  .cont h5 {
+    margin: 0% 0% 0% -15%;
+  }
+
+  .cont .lo {
+    margin: 40% 0% 10% -43%;
+  }
+
+  .lasd li {
+    font-size: 90%;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .tutulo h2 {
+    font-size: 160%;
+  }
+}
+
+@media screen and (max-width: 670px) {
+}
+
+@media screen and (max-width: 620px) {
+  .afuera h4 {
+    font-size: 370%;
+  }
+
+  h1 {
+    font-size: 200%;
+  }
+
+  .menu {
+    font-size: 90%;
+  }
+
+  #logo {
+    margin: 2% 0% -11% -49%;
+  }
+
+  .tutulo h2 {
+    font-size: 170%;
+    width: 180%;
+    margin: 9% 0% 9% -37%;
+    color: rgba(0, 0, 0, 0.938);
+  }
+
+  .Presentacion {
+    height: 48vh;
+  }
+
+  .tutulo h3 {
+    font-size: 130%;
+    width: 180%;
+    margin: 0% 0% 9% -33%;
+    color: rgb(255, 0, 0, 255);
+  }
+
+  #foto-6 {
+    width: 0%;
+    height: 0vh;
+  }
+
+  .asd {
+    margin-top: 70%;
+  }
+
+  .lorem {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(Img/careta.jpg);
+    background-repeat: no-repeat;
+    background-size: 90% 50vh;
+    width: 80%;
+    margin: 0% 0% 0% 14%;
+  }
+
+  .tutulo .asd {
+    margin: 150% 0% 0% -2%;
+    font-size: 130%;
+    color: rgb(0, 0, 0);
+    width: 100%;
+  }
+
+  .tutulo h3 {
+    color: rgba(29, 29, 29, 0.753);
+  }
+
+  .tutulo h2 {
+    margin: 45% 0% 0% -49%;
+    font-size: 200%;
+  }
+
+  .lista1 ul li {
+    margin: 0% 0% 1% 6%;
+    width: 80%;
+  }
+
+  h5 {
+    margin: 4% 0% 5% 9%;
+  }
+
+  .codigo {
+    margin-top: -1.6%;
+    width: 30%;
+  }
+
+  .sol {
+    height: 70vh;
+    background-image: url(Img/Foto-3.jpg);
+    background-size: 90% 40vh;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin: 0% 0% 0% 15%;
+  }
+
+  .cubrebocas {
+    display: flex;
+    flex-direction: column;
+    margin: 99% 0% 0% -89%;
+  }
+
+  .cont .lo {
+    margin: 90% 0% 10% -40%;
+  }
+
+  .lo {
+    margin: 100% 0% 0% 0%;
+    width: 100%;
+  }
+
+  .geles {
+    margin-top: 59%;
+  }
+
+  #gel {
+    width: 0%;
+    margin: 0% 0% 0% -55%;
+  }
+
+  .cont h5 {
+    width: 190%;
+    margin: 55% 0% 29% -55%;
+    font-size: 200%;
+  }
+
+  .cont h2 {
+    font-size: 130%;
+    width: 250%;
+    margin: 9% 0% 0% -39%;
+    color: rgba(29, 29, 29, 0.753);
+  }
+
+  .geles .cont {
+    margin: 0% 0% 9% 0%;
+  }
+
+  .pas {
+    margin: 0% 0% 0% -79%;
+    font-size: 80%;
+    width: 180%;
+  }
+
+  .lista2 h3 {
+    font-size: 0%;
+  }
+
+  .lista2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .lista2 ul li {
+    font-size: 0%;
+  }
+
+  .lista3 ul li {
+    margin: 0% 0% 2% 0%;
+    font-size: 100%;
+  }
+
+  .margen {
+    margin-top: -1.5%;
+    width: 40%;
+  }
+
+  .lista3 h4 {
+    margin: 0% 0% 6% 5%;
+  }
+
+  .lahr {
+    margin-top: -12%;
+  }
+
+  .clase-3 h4 {
+    font-size: 260%;
+  }
+
+  .clase3 h4 {
+    font-size: 200%;
+    color: rgba(29, 29, 29, 0.753);
+  }
+
+  .clase3 h2 {
+    color: rgba(29, 29, 29, 0.753);
+  }
+
+  .clase3 {
+    color: rgba(29, 29, 29, 0.753);
+    font-size: 240%;
+    margin: 0% 0% 0% 10%;
+  }
+
+  .clase h4 {
+    color: rgba(29, 29, 29, 0.753);
+  }
+
+  .clase2 h4 {
+    font-size: 150%;
+    color: rgba(29, 29, 29, 0.753);
+    margin: 9% 0% 0% 7%;
+  }
+
+  .clase2 h2 {
+    color: rgba(29, 29, 29, 0.753);
+  }
+
+  .nimiclas h3 {
+    color: rgba(29, 29, 29, 0.753);
+  }
+  .clasma h3 {
+    color: rgba(29, 29, 29, 0.753);
+  }
+
+  .clase {
+    font-size: 260%;
+    margin: 0% 0% 0% -10%;
+  }
+
+  .one {
+    margin: 9% 0% 0% -8%;
+    text-align: center;
+  }
+
+  .clase .one h2 {
+    color: rgba(29, 29, 29, 0.753);
+  }
+
+  .clase2 {
+    font-size: 260%;
+    margin: 2% 0% 5% 0%;
+  }
+
+  .two {
+    font-size: 200%;
+    margin: 0% 0% 0% 40%;
+  }
+
+  .clis {
+    margin: 0% 0% 0% 15%;
+  }
+
+  .topnin {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .topnin h2 {
+    width: 100%;
+    font-size: 220%;
+    margin: -5% 0% 0% 0%;
+  }
+
+  #top {
+    width: 0%;
+    margin-top: 29%;
+  }
+
+  .word {
+    height: 89vh;
+    background-image: url(Img/Foto-7.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 40vh;
+    margin: 10%;
+  }
+
+  .for {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 200%;
+    margin: 35% 0% 0% 10%;
+    color: rgba(29, 29, 29, 0.753);
+  }
+  .code {
+    width: 40%;
+  }
+
+  .lasd ul li {
+    margin: 0% 0% 2% 4%;
+  }
+
+  footer .fout {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  footer {
+    margin-top: 60%;
+    height: 26vh;
+  }
+
+  footer h2 {
+    font-size: 100%;
+  }
+
+  footer .parr {
+    width: 80%;
+    font-size: 90%;
+    margin: 0% 0% 0% 9%;
+  }
+
+  .for {
+    font-size: 30%;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  #logo {
+    margin: 2% 0% -11% -50%;
+  }
+
+  .lo {
+    margin-top: 120%;
+  }
+
+  .clase3 {
+    margin: 0% 0% 0% 10%;
+  }
+
+  .asd {
+    margin-top: 140%;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .cont h2 {
+    font-size: 120%;
+  }
+}
+
+@media screen and (max-width: 554px) {
+  .tutulo .asd {
+    margin: 150% 0% 0% -10%;
+  }
+
+  #logo {
+    margin: 3% 0% -11% -54%;
+  }
+}
+
+@media screen and (max-width: 522px) {
+  #logo {
+    margin: 3% 0% -12% -56%;
+  }
+
+  .Presentacion {
+    height: 40vh;
+  }
+
+  .margen {
+    margin-top: -1.8%;
+  }
+
+  .cont h2 {
+    font-size: 110%;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .topnin h2 {
+    font-size: 180%;
+  }
+
+  .for {
+    margin-top: 80%;
+  }
+
+  .tutulo .asd {
+    margin-top: 190%;
+  }
+
+  #logo {
+    margin: 2% 0% -12% -55%;
+  }
+
+  .cont h2 {
+    font-size: 130%;
+  }
+}
+
+@media screen and (max-width: 522px) {
+  .word {
+    background-size: 55vh;
+  }
+}
+
+@media screen and (max-width: 508px) {
+  .tutulo h3 {
+    font-size: 120%;
+    margin: 0% 0% 9% -33%;
+  }
+
+  .caretas hr {
+    margin-top: -9%;
+  }
+
+  .clase {
+    margin: 0% 0% 5% -11%;
+  }
+
+  #logo {
+    margin: 3% 0% -12% -58%;
+  }
+}
+
+@media screen and (max-width: 498px) {
+  .clase-1 {
+    width: 50%;
+  }
+
+  .clase-2 {
+    width: 50%;
+  }
+
+  .clase-3 {
+    width: 50%;
+  }
+
+  .for {
+    font-size: 29%;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .cont .lo {
+    margin: 90% 0% 10% -45%;
+  }
+  .for {
+    margin-top: 50%;
+  }
+}
+
+@media screen and (max-width: 482px) {
+  .for {
+    font-size: 26%;
+  }
+
+  .nimiclas h2 {
+    font-size: 160%;
+  }
+
+  .clasma h2 {
+    font-size: 160%;
+  }
+
+  .nimiclas h3 {
+    font-size: 190%;
+  }
+
+  .clasma h3 {
+    font-size: 190%;
+  }
+}
+
+@media screen and (max-width: 476px) {
+  .tutulo h3 {
+    font-size: 115%;
+  }
+
+  .tutulo .asd {
+    margin: 170% 0% 0% -10%;
+  }
+
+  #logo {
+    margin: 3% 0% -12% -60%;
+  }
+  .cont .lo {
+    margin: 90% 0% 10% -48%;
+  }
+  .yoi hr {
+    margin: -19% 0% 0% 0%;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .tutulo h3 {
+    font-size: 110%;
+  }
+
+  #logo {
+    margin: 3% 0% -12% -62%;
+  }
+
+  .tutulo h2 {
+    margin: 50% 0% 0% -49%;
+    font-size: 180%;
+  }
+
+  .lorem {
+    background-size: 90% 40vh;
+  }
+
+  #logo {
+    margin: 3% 0% -12% -63%;
+  }
+
+  .Presentacion {
+    height: 38vh;
+  }
+
+  .clase-1 {
+    width: 60%;
+  }
+
+  .clase-2 {
+    width: 70%;
+  }
+
+  .clase-3 {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 432px) {
+  #logo {
+    margin: 3% 0% -12% -65%;
+  }
+
+  .tutulo .asd {
+    margin: 130% 0% 0% -10%;
+    width: 118%;
+  }
+
+  .caretas hr {
+    margin-top: -19%;
+  }
+
+  .codigo {
+    margin-top: -1.8%;
+    width: 30%;
+  }
+
+  .margen {
+    margin-top: -1.9%;
+  }
+
+  .yoi hr {
+    margin: 19% 0% 0% 0%;
+  }
+  .clase h4 {
+    font-size: 170%;
+    margin: 5% 0% 4% 0%;
+  }
+
+  .clase2 h4 {
+    font-size: 170%;
+  }
+
+  .clase .one {
+    font-size: 100%;
+    margin: 0% 0% 0% 17%;
+  }
+
+  .clase2 {
+    margin: 4% 0% 0% -2%;
+  }
+
+  .clase3 h4 {
+    margin: 9% 0% 7% -24%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .cont h5 {
+    width: 190%;
+    margin: 55% 0% 29% -55%;
+    font-size: 180%;
+  }
+
+  .cont .lo {
+    margin: 100% 0% 10% -48%;
+  }
+
+  .for {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .clase-1 {
+    width: 60%;
+  }
+
+  .clase-2 {
+    width: 60%;
+  }
+
+  .clase-3 {
+    width: 60%;
+  }
+
+  .for .clase2 {
+    margin: 1%;
+  }
+
+  .cont h2 {
+    font-size: 120%;
+    width: 190%;
+  }
+  .cont .lo {
+    margin: 150% 0% 10% -28%;
+    width: 120%;
+    font-size: 100%;
+  }
+
+  .clase2 h4 {
+    margin: 12% 0% 0% -10%;
+  }
+
+  .two {
+    font-size: 200%;
+    margin: 0% 0% 0% 36%;
+  }
+
+  .lista3 ul li {
+    margin: 0% 0% 2% 0%;
+    font-size: 90%;
+  }
+
+  .lista1 ul li {
+    margin: 0% 0% 1% 6%;
+    width: 70%;
+  }
+
+  .lorem {
+    background-size: 95% 40vh;
+  }
+
+  .sol {
+    background-size: 100% 40vh;
+    margin: 0% 0% 0% 12%;
+  }
+
+  .cont .lo {
+    margin: 140% 0% 0% -20%;
+  }
+
+  .cont h5 {
+    margin: 65% 0% 29% -48%;
+    font-size: 170%;
+  }
+}
+
+@media screen and (max-width: 414px) /*iphone6/7/8 IOS 11*/ {
+  .Presentacion {
+    height: 30vh;
+    background-size: 100% 30vh;
+  }
+
+  header {
+    height: 10vh;
+  }
+
+  .menu ul li {
+    color: #ffffffff;
+  }
+
+  .eca-1 {
+    width: 10%;
+  }
+
+  .eca-2 {
+    width: 10%;
+  }
+
+  .eca-3 {
+    width: 10%;
+  }
+
+  .lahr {
+    margin-top: 0%;
+  }
+
+  .tutulo .asd {
+    margin: 130% 0% 0% -29%;
+  }
+
+  .caretas hr {
+    margin-top: -30%;
+  }
+
+  .for .clase2 h4 {
+    margin: 9% 0% 0% 9%;
+  }
+
+  .clase2 .two {
+    margin: 0% 0% 0% -92%;
+  }
+
+  .cont h5 {
+    font-size: 160%;
+    margin: 39% 0% 0% -46%;
+  }
+
+  .yoi hr {
+    margin-top: -9%;
+  }
+
+  footer {
+    height: 28vh;
+  }
+
+  .word {
+    height: 110vh;
+  }
+
+  .for .clase2 {
+    margin: 5% 0% 0% -19%;
+  }
+
+  .for {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70%;
+  }
+
+  #logo {
+    width: 9%;
+    margin: 4% 0% -13% -68%;
+  }
+
+  .clase h4 {
+    font-size: 180%;
+    margin: 5% 0% 4% 0%;
+  }
+
+  .clase .one h2 {
+    color: rgba(29, 29, 29, 0.753);
+    font-size: 140%;
+  }
+  .clase .one {
+    margin: 0% 0% 0% 16%;
+  }
+
+  .clase2 .two {
+    margin: 0% 0% 0% 46%;
+  }
+
+  .lasd ul li {
+    margin: 0% 0% 4% 4%;
+  }
+
+  .topnin h2 {
+    font-size: 160%;
+  }
+
+  .lo {
+    margin-top: 140%;
+  }
+
+  .margen {
+    margin-top: -2.3%;
+  }
+
+  .codigo {
+    margin-top: -2.5%;
+  }
+
+  .sol {
+    background-size: 100% 34vh;
+    margin: 0% 0% 0% 12%;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .lasd ul li {
+    margin: 0% 0% 6% 0%;
+  }
+
+  .word {
+    margin-top: 45%;
+  }
+
+  .cont .lo {
+    width: 130%;
+    margin: 160% 0% 0% -30%;
+  }
+  .yoi hr {
+    margin-top: -29%;
+  }
+
+  #logo {
+    width: 9%;
+    margin: 4% 0% -13% -70%;
+  }
+}
+
+@media screen and (max-width: 398px) {
+  h1 {
+    font-size: 190%;
+  }
+
+  .menu {
+    font-size: 85%;
+  }
+}
+
+@media screen and (max-width: 398px) {
+  #logo {
+    width: 9%;
+    margin: 4% 0% -13% -71%;
+  }
+
+  .tutulo h3 {
+    font-size: 100%;
+    margin: 0% 0% 9% -25%;
+  }
+
+  .tutulo .asd {
+    margin: 150% 0% 0% -29%;
+  }
+
+  .caretas hr {
+    margin-top: -50%;
+  }
+
+  .afuera h4 {
+    font-size: 300%;
+  }
+
+  #logo {
+    width: 9%;
+    margin: 4% 0% -13% -72%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #logo {
+    width: 10%;
+    margin: 4% 0% -15% -73%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #logo {
+    margin: 4% 0% -14% -76%;
+  }
+}
+
+@media screen and (max-width: 338px) {
+  .menu {
+    font-size: 80%;
+  }
+
+  #logo {
+    margin: 4% 0% -14% -78%;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  #logo {
+    margin: 4% 0% -14% -80%;
+  }
+
+  .tutulo h3 {
+    font-size: 90%;
+    margin: 0% 0% 9% -25%;
+  }
+  .cont h2 {
+    font-size: 110%;
+    width: 190%;
+  }
+}
+
+@media screen and (max-width: 540px) and (max-height: 960px){
+  .Presentacion {
+    height: 60vh;
+    background-size: 160% 60vh;
+    margin: -8% 0% 0% 0%;
+  }
+
+  footer{
+    height: 30vh;
+  }
+}
+
+
+
+@media screen and (max-width: 360px) and (max-height: 740px)  {
+  header {
+    height: 12.5vh;
+  }
+
+  #logo {
+    width: 12%;
+    margin: 4% 0% -15% -75%;
+  }
+
+  .menu {
+    font-size: 78%;
+  }
+
+  h1 {
+    font-size: 190%;
+  }
+
+  .Presentacion {
+    height: 60vh;
+    background-size: 190% 60vh;
+    margin: -8% 0% 0% 0%;
+  }
+
+  .tutulo h2 {
+    margin: 20% 0% 0% -49%;
+    font-size: 160%;
+  }
+  .lorem {
+    background-size: 95% 50vh;
+  }
+
+  .caretas hr {
+    margin-top: 0%;
+  }
+
+  .tutulo .asd {
+    margin: 170% 0% 0% -26%;
+  }
+
+  .codigo {
+    width: 40%;
+  }
+
+  .lista1 ul li {
+    margin: 0% 0% 1% 6%;
+    width: 80%;
+  }
+
+  .sol {
+    background-size: 150% 50vh;
+    margin: 0% 0% 0% 11%;
+  }
+
+  .cont .lo {
+    width: 130%;
+    margin: 160% 0% 0% -23%;
+  }
+
+  .lahr {
+    margin-top: 40%;
+  }
+
+  .for {
+    margin: 30% 0% 0% 8%;
+  }
+  .yoi hr {
+    margin-top: 10%;
+  }
+
+  footer {
+    height: 37vh;
+  }
+}
+
+
+
+@media screen and (max-width: 360px) and (max-height: 640px){
+  header {
+    height: 12.5vh;
+  }
+
+  #logo {
+    width: 12%;
+    margin: 4% 0% -15% -76%;
+  }
+
+  .menu {
+    font-size: 78%;
+  }
+
+  h1 {
+    font-size: 190%;
+  }
+
+  .Presentacion {
+    height: 60vh;
+    background-size: 190% 60vh;
+    margin: -8% 0% 0% 0%;
+  }
+
+  .tutulo h2 {
+    margin: 20% 0% 0% -49%;
+    font-size: 190%;
+  }
+  .lorem {
+    background-size: 95% 50vh;
+  }
+
+  .caretas hr {
+    margin-top: 0%;
+  }
+
+  .tutulo .asd {
+    margin: 110% 0% 0% -26%;
+  }
+
+  .codigo {
+    width: 40%;
+  }
+
+  .lista1 ul li {
+    margin: 0% 0% 1% 6%;
+    width: 80%;
+  }
+
+  .sol {
+    background-size: 150% 50vh;
+    margin: 0% 0% 0% 11%;
+  }
+
+  .cont .lo {
+    width: 130%;
+    margin: 140% 0% 0% -23%;
+  }
+
+  .lahr {
+    margin-top: 40%;
+  }
+
+  .for {
+    margin: 30% 0% 0% 8%;
+  }
+  .yoi hr {
+    margin-top: 50%;
+  }
+
+  footer {
+    height: 43vh;
+  }
+}
+
+
+@media screen and (max-width: 414px) and (max-height: 736px) {
+  header {
+    height: 16vh;
+  }
+
+  #logo {
+    width: 11%;
+    margin: 4% 0% -14% -70%;
+  }
+
+  .menu {
+    font-size: 78%;
+  }
+
+  h1 {
+    font-size: 190%;
+  }
+
+  .Presentacion {
+    height: 60vh;
+    background-size: 190% 60vh;
+    margin: -8% 0% 0% 0%;
+  }
+
+  .tutulo h2 {
+    margin: 20% 0% 0% -49%;
+    font-size: 190%;
+  }
+
+  .lorem {
+    background-size: 95% 50vh;
+  }
+
+  .caretas hr {
+    margin-top: 0%;
+  }
+
+  .tutulo .asd {
+    margin: 130% 0% 0% -12%;
+  }
+
+  .codigo {
+    width: 40%;
+  }
+
+  .lista1 ul li {
+    margin: 0% 0% 1% 6%;
+    width: 80%;
+  }
+
+  .sol {
+    background-size: 150% 50vh;
+    margin: 0% 0% 0% 11%;
+  }
+
+  .cont .lo {
+    width: 130%;
+    margin: 130% 0% 0% -23%;
+  }
+
+  .lahr {
+    margin-top: 40%;
+  }
+
+  .for {
+    margin: 30% 0% 0% 8%;
+  }
+  .yoi hr {
+    margin-top: 10%;
+  }
+
+  footer {
+    height: 38vh;
+  }
+
+  .yoi hr {
+    margin-top: 30%;
+  }
+}
+
+@media screen and (max-width: 375px) and (max-height: 812px)  {
+  header {
+    height: 12.5vh;
+  }
+
+  #logo {
+    width: 11%;
+    margin: 4% 0% -14% -75%;
+  }
+
+  .menu {
+    font-size: 78%;
+  }
+
+  h1 {
+    font-size: 190%;
+  }
+
+  .Presentacion {
+    height: 60vh;
+    background-size: 190% 60vh;
+    margin: -8% 0% 0% 0%;
+  }
+
+  .tutulo h2 {
+    margin: 20% 0% 0% -49%;
+    font-size: 190%;
+  }
+
+  .lorem {
+    background-size: 95% 50vh;
+  }
+
+  .caretas hr {
+    margin-top: 0%;
+  }
+
+  .tutulo .asd {
+    margin: 160% 0% 0% -22%;
+  }
+
+  .codigo {
+    width: 40%;
+  }
+
+  .lista1 ul li {
+    margin: 0% 0% 1% 6%;
+    width: 80%;
+  }
+
+  .sol {
+    background-size: 150% 50vh;
+    margin: 0% 0% 0% 11%;
+  }
+
+  .cont .lo {
+    width: 130%;
+    margin: 160% 0% 0% -25%;
+  }
+
+  .lahr {
+    margin-top: 40%;
+  }
+
+  .for {
+    margin: 40% 0% 0% 8%;
+  }
+  .yoi hr {
+    margin-top: 10%;
+  }
+
+  footer {
+    height: 36vh;
+  }
+
+  .yoi hr {
+    margin-top: 30%;
+  }
+}
+
+@media screen and (max-width: 768px) and (max-height: 1024px)  {
+  .Presentacion {
+    background-size: 100% 60vh;
+  }
+}
+
+@media screen and (max-width: 834px) and (max-height: 1112px) {
+  .Presentacion {
+    height: 60vh;
+    background-size: 100% 60vh;
+  }
+
+  header {
+    height: 8vh;
+  }
+
+  #foto-6 {
+    width: 25%;
+    height: 25vh;
+  }
+
+  footer {
+    height: 21vh;
+  }
+}
+
+@media screen and (max-width: 320px) and (max-height: 568px) {
+  #foto-6 {
+    width: 25%;
+    height: 2vh;
+  }
+
+  header {
+    height: 14vh;
+  }
+
+  h1 {
+    font-size: 168%;
+  }
+
+  .menu {
+    font-size: 75%;
+  }
+
+  .Presentacion {
+    height: 60vh;
+    background-size: 150% 60vh;
+    margin: -8% 0% 0% 0%;
+  }
+
+  .lorem {
+    background-size: 100% 60vh;
+    margin: 11%;
+  }
+
+  .caretas hr {
+    margin-top: 40%;
+  }
+
+  .tutulo .asd {
+    margin: 110% 0% 0% -22%;
+  }
+
+  .lista1 ul li {
+    margin: 0% 0% 4% 6%;
+    width: 80%;
+  }
+
+  .cont .lo {
+    width: 130%;
+    margin: 100% 0% 0% -25%;
+  }
+
+  .margen {
+    margin-top: -2.5%;
+  }
+
+  .word {
+    background-size: 160% 50vh;
+  }
+
+  .for {
+    margin: 30% 0% 0% 8%;
+  }
+
+  .yoi hr {
+    margin-top: 80%;
+  }
+
+  .lasd ul li {
+    margin: 0% 0% 9% 0%;
+  }
+
+  footer {
+    height: 52vh;
+  }
+}
+
+@media screen and (max-width: 375px) and (max-height: 667px){
+  header {
+    height: 12vh;
+  }
+
+  #foto-6{
+    width: 0%;
+    height: 0vh;
+  }
+
+  #logo {
+    width: 11%;
+    margin: 4% 0% -14% -72%;
+  }
+
+  .menu {
+    font-size: 78%;
+  }
+
+  h1 {
+    font-size: 190%;
+  }
+
+  .Presentacion {
+    height: 60vh;
+    background-size: 190% 60vh;
+    margin: -8% 0% 0% 0%;
+  }
+
+  .tutulo h2 {
+    margin: 20% 0% 0% -49%;
+    font-size: 190%;
+  }
+
+  .lorem {
+    background-size: 95% 50vh;
+  }
+
+  .caretas hr {
+    margin-top: 0%;
+  }
+
+  .tutulo .asd {
+    margin: 120% 0% 0% -23%;
+  }
+
+  .codigo {
+    width: 40%;
+  }
+
+  .lista1 ul li {
+    margin: 0% 0% 1% 6%;
+    width: 80%;
+  }
+
+  .sol {
+    background-size: 150% 50vh;
+    margin: 0% 0% 0% 11%;
+  }
+
+  .cont .lo {
+    width: 130%;
+    margin: 130% 0% 0% -23%;
+  }
+
+  .lahr {
+    margin-top: 40%;
+  }
+
+  .for {
+    margin: 30% 0% 0% 8%;
+  }
+  .yoi hr {
+    margin-top: 10%;
+  }
+
+  footer {
+    height: 42vh;
+  }
+
+  .yoi hr {
+    margin-top: 30%;
+  }
+}
+
